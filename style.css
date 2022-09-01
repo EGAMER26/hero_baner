@@ -1,0 +1,133 @@
+:root {
+  --button-color: hsl(345, 100%, 60%);
+  --back-color: hsl(237, 22%, 20%);
+  --secondery-color: hsl(240, 100%, 99%);
+  --accent-color: hsl(240, 1%, 84%);
+
+  font-size: 62.5%; /* 1rem = 10px*/
+}
+
+@font-face {
+  font-family: 'euclid bold';
+  src: url('/assets/Euclid\ Circular\ A\ Bold.ttf') format('truetype');
+  /* tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype aat (apple advanced typography)
+    - svg */
+}
+@font-face {
+  font-family: 'euclid medium';
+  src: url('/assets/Euclid\ Circular\ A\ Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'euclid regular';
+  src: url('/assets/Euclid\ Circular\ A\ Regular.ttf') format('truetype');
+}
+* {
+  font-size: 1.6rem;
+  font-family: euclid regular;
+  text-decoration: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: var(--back-color);
+  z-index: 3;
+}
+#email {
+  /* background-image: url(/assets/Message.png);
+  background-repeat: no-repeat; */
+  border: white solid 1px;
+  border-radius: 0.7rem;
+}
+main {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 59.9rem;
+  width: 100%;
+  padding-left: 12.3rem;
+  padding-right: 12.3rem;
+  justify-content: space-between;
+  z-index: 4;
+}
+
+nav {
+  display: block;
+  /* border: 1px solid; */
+  height: 55px;
+  width: 100%;
+  padding-left: 12.3rem;
+  padding-right: 23.3rem;
+  margin: 0 auto;
+}
+button {
+  background-color: var(--button-color);
+  color: var(--secondery-color);
+}
+h1 {
+  font-size: 8.2rem;
+  color: var(--secondery-color);
+}
+p {
+  color: var(--accent-color);
+  font-size: 2.4rem;
+}
+a {
+  color: var(--secondery-color);
+}
+ul {
+  display: flex;
+  gap: 5.3rem;
+  margin-left: 29.8rem;
+}
+.logo {
+  display: flex;
+  /* position: relative;
+  right: 25rem; */
+  /* margin-right: 50rem; */
+  margin-left: 0%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  /* border: solid 1px; */
+}
+.img {
+  width: 73.2rem;
+  height: 73.2rem;
+}
+.buttons {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 3.8rem;
+}
+.deemo {
+  width: 13.6rem;
+  height: 5.5rem;
+  border-radius: 7px;
+  border: none;
+}
+.send {
+  width: 8.7rem;
+  height: 5.5rem;
+  border-radius: 7px;
+  border: none;
+}
+
+.eclipse {
+  position: absolute;
+  z-index: -1;
+  left: 110rem;
+  top: 15rem;
+}
+.eclipse1 {
+  position: absolute;
+  z-index: -1;
+  left: 122rem;
+  bottom: 30rem;
+}
