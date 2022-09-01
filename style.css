@@ -37,7 +37,6 @@ html {
   z-index: 3;
 }
 #email {
-  /* background-image: url(/assets/Message.png);
   background-repeat: no-repeat; */
   border: white solid 1px;
   border-radius: 0.7rem;
@@ -56,7 +55,6 @@ main {
 
 nav {
   display: block;
-  /* border: 1px solid; */
   height: 55px;
   width: 100%;
   padding-left: 12.3rem;
@@ -85,18 +83,13 @@ ul {
 }
 .logo {
   display: flex;
-  /* position: relative;
-  right: 25rem; */
-  /* margin-right: 50rem; */
   margin-left: 0%;
 }
 .nav {
   display: flex;
   justify-content: space-between;
 }
-.content {
-  /* border: solid 1px; */
-}
+
 .img {
   width: 73.2rem;
   height: 73.2rem;
